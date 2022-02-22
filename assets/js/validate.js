@@ -23,7 +23,7 @@ if(invalidList.indexOf(inputVal) !== -1){
         document.getElementById("submitSubDomain").innerHTML=inputVal;
     }
 }
-function validateSubmit()
+function validate()
 {
 var inputVal = document.getElementById("subdomain").value;
 invalidList=["kiwichat"];
