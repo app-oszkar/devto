@@ -29,6 +29,6 @@ plugins:
   - jekyll-include-cache
 
 staticman:
-  api: "https://api.staticman.ml/v3/entry/github/app-oszkar/devto/master/subdomain"  
+  api: "https://api.staticman.ml/v3/entry/github/app-oszkar/devto/master/comments"  
 #  path: "_data/subdomain/{fileds.subdomain}"
-  path: "_data/subdomain/request"
+  path: "_data/comments/request"
