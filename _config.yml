@@ -38,5 +38,3 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  
-  staticman_url: "https://api.staticman.ml/v3/entry/app-oszkar/devto/master/comments"
