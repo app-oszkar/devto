@@ -1,0 +1,106 @@
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="https://devto.ml">
+					 <img src="assets/devto-ml.png" alt="DevTo.ML"></a>
+					 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					
+					
+                </div>
+            </nav>
+            <!-- Page content-->
+            <section class="py-5">
+                <div class="container px-10">
+                    <!-- Request form-->
+                  <div class="bg-light rounded-3 py-3 px-4 px-md-5 mb-5">
+                        <div class="text-center mb-3">
+                     
+                            <h1 class="fw-bolder">Request SubDomain Name .DevTo.ML</h1>
+
+                        </div>
+     
+        <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+                    <div class="container">
+ 
+				
+                  <form method="POST" action="https://api.staticman.ml/v3/entry/github/app-oszkar/devto/master/comments">
+                       <input name="options[slug]" type="hidden" value="request" />
+                       <input type="hidden" name="options[origin]" value="https://devto.ml/" />
+					
+			   <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_name">Full Name *</label> <input id="form_name" type="text" name="fields[first_name]" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required." /> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_lastname">WebSite *</label> <input id="website" type="text" name="fields[website]" class="form-control" placeholder="Please enter your website *" required="required" data-error="Lastname is required." /> </div>
+                                    </div>
+                                </div>
+                             
+		<div class="row">
+           <div class="col-md-6">
+            <div class="form-group"> <label for="form_subdomain">SubDomain *</label> <input id="subdomain" type="subdomain" name="fields[subdomain]" class="form-control" placeholder="Please enter your subdomain *" required="required" data-error="Valid subdomain is required." onkeyup="validate()"/> </div>
+              </div>
+	          <div class="col-md-6">
+			 <div class="form-group"> <label for="form_subdomain">.DevTo.ML</label> <p id="submitSubDomain"> <input class="form-control" placeholder=".devto.ml" disabled="1"></input></p></div>
+           </div>					
+		</div>		
+                             
+                                <div class="row">
+                                    <div class="col-md-6">
+									
+                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="fields[email]" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Please enter your email *" required="required" data-error="Valid email is required." /> </div>
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_need">Please specify your need *</label> <select id="form_need" name="fields[record]" class="form-control" required="required" data-error="Please specify your record.">
+                                                <option value="" selected="" disabled="">--Select Your Record--</option>
+                                                <option>CNAME</option>
+                                                <option>NS</option>
+                                                <option>A</option>
+                                                <option>AAAA</option>
+                                            </select> </div>
+                                    </div>
+                                </div>
+				   
+				       <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label for="form_name">Destination *</label> <input id="form_name" type="text" name="fields[destination]" class="form-control" placeholder="Please enter your destination *" required="required" data-error="Destination is required." /> </div>
+                                    </div>
+                     
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="fields[message]" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                                    </div>
+                                  <input name="options[redirect]" type="hidden" value="https://devto.ml/subdomain-list" />
+                                 <input name="fields[devto]" type="hidden" value="devto.ml" />
+                                
+					 <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="" />
+						
+      <label class="form-check-label" for="invalidCheck">
+      <p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</p>
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+					
+                                    <div class="col-md-12"> <input type="submit" class="btn btn-primary  btn-sm btn-block" onclick="validateSubmit()" value="Request" id="submitSubDomain" /> </div>
+                                </div>
+                            </div>
+                        </form>	
+                    </div>
+                </div>
+            </div> <!-- /.8 -->
+        </div> <!-- /.row-->
+    
+                    </div>
+                </div>
+            </section>
+        </main>
