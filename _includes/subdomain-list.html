@@ -1,5 +1,8 @@
-<div class="comments">
-  <h2>DevTo.ML SubDomain List</h2>
+<div class="container px-5">
+<div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
+<div class="text-center mb-5">					
+<h1 class="fw-bolder">DevTo.ML SubDomain List</h1>                     
+ </div>
   {% assign comments = site.data.comments.request | sort %}
   {% for comment in comments reversed %}
     {% assign commentData = comment[1] %}
@@ -9,3 +12,4 @@
     </article>
   {% endfor %}
 </div>
+</div>  
