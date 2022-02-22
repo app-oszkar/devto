@@ -1,0 +1,22 @@
+comments:
+  # (*) REQUIRED
+  allowedFields: ["name", "email", "url", "message", "replyto", "destination", "first_name", "last_name", "website", "additional", "subdomain", "record", "your_email", "devto", "origin", "apps-bot"]
+  branch: "master"
+  filename: "{fields.replyto}{fields.subdomain}"
+  path: "_data/comments/{options.slug}"
+    
+  # (*) OPTIONAL?
+  commitMessage: "New Subdomain from {fields.subdomain} at {fields.destination}"
+  format: "json"
+  allowedOrigins: ["https://devto.ml"]
+  bannedDomains: ["https://bit.ly"]
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "yyyy-MM-dd"
+  moderation: true
+  name: "Devto subdomain request"
+ # requiredFields: ["devto"]
+  transforms:
+    email: md5
