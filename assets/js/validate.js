@@ -246,7 +246,7 @@ if(invalidList.indexOf(inputVal) !== -1){
         document.getElementById("submitSubDomain").innerHTML=inputVal;
     }
 }
-function validate()
+function validateSubmit()
 {
 var inputVal = document.getElementById("subdomain").value;
 invalidList=["kiwichat"];
