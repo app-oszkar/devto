@@ -5,6 +5,12 @@ permalink: /blog/post
 ---
 {% include head.html %}
 {% include navigation.html %}
-test
+  <!-- Begin Comments -->
+  {% if page.comments != false %}
+    <div id="comments">
+      {% include comments.html %}
+      </div>
+  {% endif %}
+  <!-- End Comments -->
 {% include footer.html %}
 {% include script.html %}
