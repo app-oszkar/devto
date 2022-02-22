@@ -1,6 +1,6 @@
 comments:
   # (*) REQUIRED
-  allowedFields: ["name", "email", "url", "message", "replyto", "destination", "first_name", "last_name", "website", "additional", "subdomain", "record", "your_email", "devto", "origin", "apps-bot", "replying_to_uid", "subscribe"]
+  allowedFields: ["name", "email", "url", "message", "replyto", "destination", "first_name", "last_name", "website", "additional", "subdomain", "record", "your_email", "devto", "origin", "apps-bot", "replying_to_uid", "subscribe", "parent_id"]
   branch: "master"
   filename: "{fields.replyto}{fields.subdomain}"
   path: "_data/comments/{options.slug}"
