@@ -2,6 +2,10 @@ function validate()
 {
 /* RESTRICTED SUBDOMAINS  */
     
+    var input = document.getElementById('fields[subdomain]');
+    input.oninvalid = function(event) { event.target.setCustomValidity('Username should only contain lowercase letters. e.g. john1'); }
+    
+    
     var inputVal = document.getElementById("subdomain").value;
 invalidList=[
     "about",
