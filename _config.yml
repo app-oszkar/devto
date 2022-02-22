@@ -32,9 +32,3 @@ staticman:
   api: "https://api.staticman.ml/v3/entry/github/app-oszkar/devto/master/comments"  
 #  path: "_data/subdomain/{fileds.subdomain}"
   path: "_data/comments/request"
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
