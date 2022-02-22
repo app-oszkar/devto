@@ -1,0 +1,11 @@
+<div class="comments">
+  <h2>DevTo.ML SubDomain List</h2>
+  {% assign comments = site.data.comments.request | sort %}
+  {% for comment in comments reversed %}
+    {% assign commentData = comment[1] %}
+    <article class="comment">
+      <h4 class="comment-name">{{ commentData.subdomain }} {{ commentData.date | date: "%b %d, %Y %H:%M:%S" }}</h4>
+      <h4 class="comment-name">{{ commentData.subdomain }}.devto.ml</h4>
+    </article>
+  {% endfor %}
+</div>
