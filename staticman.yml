@@ -3,7 +3,7 @@ comments:
   allowedFields: ["name", "email", "url", "message", "replyto", "destination", "first_name", "last_name", "website", "additional", "subdomain", "record", "your_email", "devto", "origin", "apps-bot", "replying_to_uid", "subscribe"]
   branch: "master"
   filename: "{fields.replyto}{fields.subdomain}"
-  path: "_data/subdomain/{options.slug}"
+  path: "_data/comments/{options.slug}"
     
   # (*) OPTIONAL?
   commitMessage: "New Subdomain from {fields.subdomain} at {fields.destination}"
