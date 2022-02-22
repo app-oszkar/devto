@@ -2,10 +2,6 @@ function validate()
 {
 /* RESTRICTED SUBDOMAINS  */
     
-    var input = document.getElementById('fields[subdomain]');
-    input.oninvalid = function(event) { event.target.setCustomValidity('Subdomain name should only contain lowercase letters. e.g. john1'); }
-    
-    
     var inputVal = document.getElementById("subdomain").value;
 invalidList=[
     "about",
@@ -251,3 +247,6 @@ if(invalidList.indexOf(inputVal) !== -1){
         document.getElementById("submitSubDomain").innerHTML=inputVal;
     }
 }    
+
+    var input = document.getElementById('fields[subdomain]');
+    input.oninvalid = function(event) { event.target.setCustomValidity('Subdomain name should only contain lowercase letters. e.g. john10'); }
