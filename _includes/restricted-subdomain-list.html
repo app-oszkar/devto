@@ -6,7 +6,7 @@
  </div>
   {% assign comments = site.data.comments.request | sort %}
   {% for comment in comments reversed %}
-    {% assign commentData = comment[10] %}
+    {% assign commentData = comment %}
     <article class="comment">
       <h4 class="comment-name">{{ commentData.name }} {{ commentData.subdomain }} {{ commentData.date | date: "%b %d, %Y %H:%M:%S" }}</h4>
       <h4 class="comment-name">{{ commentData.restricted }}.devto.ml</h4>
