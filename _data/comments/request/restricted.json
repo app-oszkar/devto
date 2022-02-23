@@ -1,9 +1,15 @@
 
-[{"n" : "Riyaz"},{"n" : "Javed"},{"n" : "Arun"},{"n" : "Sabel"},{"n" : "Rahul"},{"n" : "Anita"}]
+[{"n" : "Riyaz"},
+ {"n" : "Javed"},
+ {"n" : "Arun"},
+ {"n" : "Sabel"},
+ {"n" : "Rahul"},
+ {"n" : "Anita"}]
 
-[
   {
     "n1": "1",
     "firstName": "John",
     "lastName": "Doe"
   },
+"n1":"www.devto.ml",
+"n1":"www.devto.ml"
