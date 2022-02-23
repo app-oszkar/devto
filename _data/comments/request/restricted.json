@@ -1,13 +1,13 @@
 
-{"n" : "Riyaz"},
- {"n" : "Javed"},
- {"n" : "Arun"},
+{"n":"Riyaz"},
+ {"n":"Javed"},
+ {"n":"Arun"},
  {"n" : "Sabel"},
  {"n" : "Rahul"},
  {"n" : "Anita"}
 
   {
     "n1": "1",
-    "n1": "John",
+    "n1":"John",
     "n1": "Doe"
   },
