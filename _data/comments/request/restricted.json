@@ -4,6 +4,7 @@
 "restricted":"api",
 "restricted":"cpanel",
 "restricted":"chat",
-"restricted":"cname", 
+"restricted":"cname",
+"restricted":"irc",
 "date":"2022-02-23T22:39:45.242Z"
 }
