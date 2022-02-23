@@ -4,12 +4,32 @@
 <div class="text-center mb-5">					
 <h1 class="fw-bolder">DevTo.ML SubDomain List</h1>                     
  </div>
-  {% assign comments = site.data.comments.request | sort %}
-  {% for comment in comments reversed %}
-  {% assign commentData = comment[1] %}    
-    <article class="comment">
-      <h4 class="comment-name">{{ commentData.name }} {{ commentData.subdomain }} {{ commentData.date | date: "%b %d, %Y %H:%M:%S" }}</h4>
-      <h4 class="comment-name">{{ commentData.n }}.devto.ml</h4>{{ commentData.n1 }}
+
+ 
+ 
+         <script type="text/javascript" src="_data/comments/request/restricted.json"></script>
+        <script type="text/javascript" >
+            function load() {
+                var mydata = JSON.parse(data);
+                alert(mydata.length);
+
+                var div = document.getElementById('data');
+
+                for(var i = 0;i < mydata.length; i++)
+                {
+                    div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name +"</p>" + "<br>";
+                }
+            }
+        </script>
+    </head>
+    <body onload="load()">
+        <div id="data">
+
+        </div>
+    </body>
+ 
+ 
+ 
     </article>
   {% endfor %}
 </div>
