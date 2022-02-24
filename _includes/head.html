@@ -11,19 +11,4 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    
-              <script type="text/javascript" src="https://devto.ml/assets/js/restricted.json"></script>
-        <script type="text/javascript" >
-            function load() {
-                var mydata = JSON.parse(restricted);
-                alert(mydata.length);
-
-                var div = document.getElementById('restricted');
-
-                for(var i = 0;i < mydata.length; i++)
-                {
-                    div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name +"</p>" + "<br>";
-                }
-            }
-        </script>
 </head>
