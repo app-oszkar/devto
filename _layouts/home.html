@@ -4,5 +4,6 @@ layout: null
 <!DOCTYPE html>
 <html lang="{{ site.locale }}">
 {{ content }}
+ {% if page.ghstars %}{% include ghstars.html %}{% endif %}
 </body>
 </html>
