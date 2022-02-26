@@ -11,10 +11,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-body {
-  padding-top: 56px;
-  background: #91C9FF url(https://showchat.tk/assets/img/checker.png) repeat;
-}
 
 input:invalid { border-color: red; } input, input:valid { border-color: #ccc; }
 
@@ -11315,4 +11311,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+
+body {
+  background: #91C9FF url(https://showchat.tk/assets/img/checker.png) repeat;
 }
