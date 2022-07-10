@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "devto.ml",
+  "author": "Oszkar - KiwiChat",
+  "scripts": {
+    "sort": "sort-json subdomains.json"
+  },
+  "devDependencies": {
+    "sort-json": "^2.0.1"
+  }
+}
